@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb-base", "prettier", "plugin:react/recommended"],
+  "plugins": ["react"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "no-nested-ternary": 0
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
