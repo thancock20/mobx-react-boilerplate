@@ -9,7 +9,8 @@ It:
 * Switches from `babel-preset-2015` to `babel-preset-env`.
 * Sets `useStrict(true)` so the `mobx` store can only be mutated by `actions`.
 * Uses `Provider` and `inject` from `mobx-react` to add the `mobx` store  to `react`'s context.
-* Add `DOCTYPE` and `meta` tags to `index.html`.
+* Adds `DOCTYPE` and `meta` tags to `index.html`.
+* Changes the example project from a todo app to a simple counter.
 
 ### Run the example
 
